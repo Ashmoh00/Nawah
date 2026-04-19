@@ -1,0 +1,346 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Nawah | Premium Bilingual Website</title>
+  <meta name="description" content="Nawah premium bilingual website for edge AI systems." />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Tajawal:wght@400;500;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header class="topbar">
+    <div class="container nav">
+    <a class="logo" href="index.html">
+      <img src="images/Logo.png" alt="Nawah Logo" class="logo-img">
+    </a>
+      <nav class="nav-links">
+        <a class="active" href="index.html" data-i18n="nav_home">Home</a>
+        <a href="technology.html" data-i18n="nav_technology">Technology</a>
+        <a href="solutions.html" data-i18n="nav_solutions">Solutions</a>
+        <a href="industries.html" data-i18n="nav_industries">Industries</a>
+        <a href="about.html" data-i18n="nav_about">About</a>
+        <a href="contact.html" data-i18n="nav_contact">Contact</a>
+      </nav>
+
+      <div class="nav-actions">
+        <a class="btn btn-secondary hide-mobile" href="technology.html" data-i18n="hero_btn1">Explore Technology</a>
+        <a class="btn btn-primary" href="contact.html" data-i18n="nav_cta">Partner With Us</a>
+        <button class="menu-toggle" type="button" aria-label="Open menu">☰</button>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero">
+      <div class="container hero-grid">
+        <div class="hero-copy reveal">
+          <span class="eyebrow" data-i18n="hero_eyebrow">Beyond the Surface</span>
+          <h1 data-i18n="hero_title">Ultra-low-power intelligence for real-world autonomous and edge applications.</h1>
+          <p data-i18n="hero_text">Nawah designs and deploys advanced edge-AI systems that deliver real-time, low-power intelligence — from optimized AI models to custom hardware architectures.</p>
+
+          <div class="btn-group">
+            <a class="btn btn-primary" href="technology.html" data-i18n="hero_btn1">Explore Technology</a>
+            <a class="btn btn-secondary" href="contact.html" data-i18n="hero_btn2">Partner With Us</a>
+          </div>
+
+
+        </div>
+
+        <div class="hero-visual reveal">
+          
+            <canvas id="neuroCanvas"></canvas>
+
+            <div class="glass-panel">
+              <strong>At the Core</strong>
+              <span>Engineering intelligence across models, hardware, and system integration.</span>
+            </div>
+        </div>
+        </div>
+        </div>
+      </div>
+    </section>
+
+
+
+    <section class="section">
+      <div class="container">
+        <div class="section-header">
+          <div>
+            <span class="eyebrow reveal" data-i18n="intro_eyebrow">Why Nawah</span>
+            <h2 class="section-title reveal" data-i18n="intro_title">A full-stack edge AI engineering company.</h2>
+            <p class="section-lead reveal" data-i18n="intro_text">Our work spans AI models, acceleration, embedded systems, and advanced edge research — enabling deployable intelligence for real environments.</p>
+          </div>
+        </div>
+        <div class="metrics" style="margin-top: 28px;">
+          <div class="metric reveal"><strong data-i18n="metrics_1_t">Low Power</strong><span data-i18n="metrics_1_d">Efficiency-first engineering decisions</span></div>
+          <div class="metric reveal"><strong data-i18n="metrics_2_t">Real Time</strong><span data-i18n="metrics_2_d">Fast response where latency matters</span></div>
+          <div class="metric reveal"><strong data-i18n="metrics_3_t">Edge Native</strong><span data-i18n="metrics_3_d">Designed for constrained deployment</span></div>
+          <div class="metric reveal"><strong data-i18n="metrics_4_t">R&D Driven</strong><span data-i18n="metrics_4_d">Research-backed technical depth</span></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="container">
+        <span class="eyebrow reveal" data-i18n="pillars_eyebrow">Technology Pillars</span>
+        <h2 class="section-title reveal" data-i18n="pillars_title">The Engineering Foundation Behind Nawah</h2>
+        <p class="section-lead reveal" data-i18n="pillars_text">Our technology stack spans the full pipeline — from AI models to hardware architecture and system-level integration — enabling intelligent, efficient, and production-ready edge systems.</p>
+
+        <div class="grid grid-4" style="margin-top: 30px;">
+          <article class="card reveal">
+            <div class="card-icon">01</div>
+            <h3 data-i18n="pillar_1_t">AI Models</h3>
+            <p data-i18n="pillar_1_d">From computer vision and anomaly detection to NLP, LLM-powered chatbots, time-series forecasting, generative and multimodal AI — we build scalable models engineered for real-world deployment.</p>
+          </article>
+          <article class="card reveal">
+            <div class="card-icon">02</div>
+            <h3 data-i18n="pillar_2_t">AI Acceleration</h3>
+            <p data-i18n="pillar_2_d">Hardware-aware optimization and specialized compute platforms designed to balance performance, power, and latency.</p>
+          </article>
+          <article class="card reveal">
+            <div class="card-icon">03</div>
+            <h3 data-i18n="pillar_3_t">PCB & Embedded Systems</h3>
+            <p data-i18n="pillar_3_d">Precision hardware engineering that transforms AI capability into reliable, deployable products.</p>
+          </article>
+          <article class="card reveal">
+            <div class="card-icon">04</div>
+            <h3 data-i18n="pillar_4_t">Advanced Edge Architectures</h3>
+            <p data-i18n="pillar_4_d">Research-driven innovation in next-generation, energy-efficient computing paradigms for autonomous and constrained environments.</p>
+          </article>
+        </div>
+        <div class="section-link-row reveal">
+          <a class="section-link" href="technology.html">
+            Explore Technology
+            <span>↗</span>
+          </a>
+        </div>
+      </div>
+    </section>
+    <section class="section-sm">
+      <div class="container">
+        <div class="quote-block reveal">
+
+          <div class="quote-icon">“</div>
+
+          <p data-i18n="quote_text">
+            Technology is only valuable when it is deployable.
+          </p>
+
+          <span data-i18n="quote_by">
+            Nawah engineering philosophy
+          </span>
+
+        </div>
+      </div>
+    </section>
+    <section class="section">
+      <div class="container">
+        <span class="eyebrow reveal" data-i18n="edge_eyebrow">Why Edge AI</span>
+        <h2 class="section-title reveal" data-i18n="edge_title">Why Edge AI Matters</h2>
+        <p class="section-lead reveal" data-i18n="edge_text">Edge AI enables intelligent systems to operate directly where data is generated — supporting faster response, efficient resource utilization, and reliable system performance.</p>
+
+        <div class="grid grid-2" style="margin-top: 30px;">
+          <article class="card reveal"><h3 data-i18n="edge_1_t">Real-Time Decision Making</h3><p data-i18n="edge_1_d">Immediate processing enables faster responses in time-critical environments such as automation, monitoring, and autonomous systems.</p></article>
+          <article class="card reveal"><h3 data-i18n="edge_2_t">Energy Efficiency</h3><p data-i18n="edge_2_d">Low-power AI systems reduce operational costs and enable intelligent functionality in battery-powered and embedded devices.</p></article>
+          <article class="card reveal"><h3 data-i18n="edge_3_t">Data Privacy & Security</h3><p data-i18n="edge_3_d">Processing data directly on-device minimizes data transfer and helps protect sensitive information.</p></article>
+          <article class="card reveal"><h3 data-i18n="edge_4_t">Reliable Operation</h3><p data-i18n="edge_4_d">Edge systems continue operating even with limited or unstable connectivity, ensuring consistent performance in real-world environments.</p></article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="container">
+        <span class="eyebrow reveal" data-i18n="process_eyebrow">How We Work</span>
+        <h2 class="section-title reveal" data-i18n="process_title">From concept to deployable system</h2>
+
+        <div class="timeline" style="margin-top: 30px;">
+          <div class="step reveal">
+            <div class="step-no">01</div>
+            <div class="card">
+              <h3 data-i18n="step_1_t">Define the use case</h3>
+              <p data-i18n="step_1_d">We translate the business or research objective into a deployable edge-AI scope.</p>
+            </div>
+          </div>
+          <div class="step reveal">
+            <div class="step-no">02</div>
+            <div class="card">
+              <h3 data-i18n="step_2_t">Design the intelligence stack</h3>
+              <p data-i18n="step_2_d">Model selection, hardware alignment, data flow, and acceleration strategy are defined together.</p>
+            </div>
+          </div>
+          <div class="step reveal">
+            <div class="step-no">03</div>
+            <div class="card">
+              <h3 data-i18n="step_3_t">Build and integrate</h3>
+              <p data-i18n="step_3_d">We implement the system across software, firmware, and hardware integration layers.</p>
+            </div>
+          </div>
+          <div class="step reveal">
+            <div class="step-no">04</div>
+            <div class="card">
+              <h3 data-i18n="step_4_t">Validate for the real world</h3>
+              <p data-i18n="step_4_d">Performance is measured against real constraints: latency, power, reliability, and deployment conditions.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="container">
+        <span class="eyebrow reveal" data-i18n="industries_eyebrow">Industries</span>
+        <h2 class="section-title reveal" data-i18n="industries_title">Where Our Technology Applies</h2>
+        <div class="grid grid-4" style="margin-top: 30px;">
+          <article class="card reveal"><div class="card-icon">RA</div><h3 data-i18n="ind_1_t">Robotics & Automation</h3><p data-i18n="ind_1_d">Real-time control, perception, and hardware integration for autonomous and industrial systems.</p></article>
+          <article class="card reveal"><div class="card-icon">II</div><h3 data-i18n="ind_2_t">Industrial IoT</h3><p data-i18n="ind_2_d">Sensor intelligence, predictive maintenance, and optimized manufacturing workflows.</p></article>
+          <article class="card reveal"><div class="card-icon">SC</div><h3 data-i18n="ind_3_t">Smart Cities</h3><p data-i18n="ind_3_d">Scalable, energy-efficient infrastructure systems for monitoring and automation.</p></article>
+          <article class="card reveal"><div class="card-icon">ED</div><h3 data-i18n="ind_4_t">Consumer & Edge Devices</h3><p data-i18n="ind_4_d">On-device intelligence for privacy-focused and performance-critical consumer technologies.</p></article>
+        </div>
+        <div class="section-link-row reveal">
+        <a class="section-link" href="industries.html">
+          Explore Industries
+          <span>↗</span>
+        </a>
+      </div>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="container">
+        <span class="eyebrow reveal" data-i18n="solutions_eyebrow">Solutions</span>
+        <h2 class="section-title reveal" data-i18n="solutions_title">Engineering Services</h2>
+        <p class="section-lead reveal" data-i18n="solutions_text">Nawah provides capabilities across AI development, hardware design, and advanced computing systems — supporting clients from early system design through real-world deployment.</p>
+
+        <div class="grid grid-3" style="margin-top: 30px;">
+          <article class="card reveal"><h3 data-i18n="sol_1_t">AI & Model Deployment</h3><p data-i18n="sol_1_d">Edge-optimized AI systems and deployment workflows.</p></article>
+          <article class="card reveal"><h3 data-i18n="sol_2_t">Data & Analytics</h3><p data-i18n="sol_2_d">Data pipelines, labeling, governance, and real-time analytics.</p></article>
+          <article class="card reveal"><h3 data-i18n="sol_3_t">Hardware & PCB Engineering</h3><p data-i18n="sol_3_d">Hardware realization for intelligent deployable products.</p></article>
+          <article class="card reveal"><h3 data-i18n="sol_4_t">Digital & Chip Design</h3><p data-i18n="sol_4_d">RTL, FPGA prototyping, architecture, and integration.</p></article>
+          <article class="card reveal"><h3 data-i18n="sol_5_t">Advanced Edge R&D</h3><p data-i18n="sol_5_d">Research into ultra-efficient and neuromorphic-inspired computing systems.</p></article>
+        </div>
+        <div class="section-link-row reveal">
+        <a class="section-link" href="solutions.html">
+          Explore Solutions
+          <span>↗</span>
+        </a>
+      </div>
+      </div>
+    </section>
+
+<section class="section">
+  <div class="container">
+    
+    <span class="eyebrow reveal" data-i18n="partners_eyebrow">Partners</span>
+    
+    <h2 class="section-title reveal" data-i18n="partners_title">
+      Partners & Collaborators
+    </h2>
+    
+    <p class="section-lead reveal" data-i18n="solutions_text">
+      We work with research institutions, technology providers, and industry partners to advance next-generation edge intelligence.
+    </p>
+
+    <div class="partners-marquee">
+
+      <div class="partners-track">
+        
+        <!-- مجموعة أولى -->
+        <div class="partner-item">
+          <img src="images/partner-1.png" alt="">
+        </div>
+        <div class="partner-item">
+          <img src="images/partner-2.png" alt="">
+        </div>
+        <div class="partner-item">
+          <img src="images/partner-3.png" alt="">
+        </div>
+        <div class="partner-item">
+          <img src="images/partner-4.png" alt="">
+        </div>
+        <div class="partner-item">
+          <img src="images/partner-5.png" alt="">
+        </div>
+        <div class="partner-item">
+          <img src="images/partner-6.png" alt="">
+        </div>
+
+        <!-- نفسهم مرة ثانية (مهم للانسيابية) -->
+        <div class="partner-item">
+          <img src="images/partner-1.png" alt="">
+        </div>
+        <div class="partner-item">
+          <img src="images/partner-2.png" alt="">
+        </div>
+        <div class="partner-item">
+          <img src="images/partner-3.png" alt="">
+        </div>
+        <div class="partner-item">
+          <img src="images/partner-4.png" alt="">
+        </div>
+        <div class="partner-item">
+          <img src="images/partner-5.png" alt="">
+        </div>
+        <div class="partner-item">
+          <img src="images/partner-6.png" alt="">
+        </div>
+                <div class="partner-item">
+          <img src="images/partner-7.png" alt="">
+        </div>
+        <div class="partner-item">
+          <img src="images/partner-8.png" alt="">
+        </div>
+        <div class="partner-item">
+          <img src="images/partner-9.png" alt="">
+        </div>
+
+      </div>
+
+    </div>
+
+</section>
+
+
+
+    <section class="section">
+      <div class="container">
+        <div class="premium-panel reveal">
+          <span class="eyebrow" data-i18n="cta_eyebrow">From Here Forward</span>
+          <h2 class="section-title" style="margin-bottom:12px;" data-i18n="cta_title">Build the Future of Edge Intelligence</h2>
+          <p class="section-lead" data-i18n="cta_text">Partner with Nawah to develop ultra-efficient, real-time AI systems engineered for real-world performance.</p>
+          <div class="btn-group">
+            <a class="btn btn-primary" href="contact.html" data-i18n="cta_btn1">Get in Touch</a>
+            <a class="btn btn-secondary" href="technology.html" data-i18n="cta_btn2">Explore Technology</a>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container footer-grid">
+      <div>
+      <a class="logo" href="index.html"><img src="images\Logo.png" alt="Nawah Logo"></a>
+
+        <p style="margin-top:14px;" data-i18n="footer_text">Ultra-efficient intelligence for real-world autonomous and edge applications.</p>
+      </div>
+
+      <div class="footer-links">
+        <a href="technology.html" data-i18n="nav_technology">Technology</a>
+        <a href="solutions.html" data-i18n="nav_solutions">Solutions</a>
+        <a href="industries.html" data-i18n="nav_industries">Industries</a>
+      </div>
+
+      <div class="footer-links">
+        <a href="about.html" data-i18n="nav_about">About</a>
+        <a href="contact.html" data-i18n="nav_contact">Contact</a>
+        <p>© <span class="year"></span> <span data-i18n="brand">Nawah</span> — <span data-i18n="footer_copy">All rights reserved.</span></p>
+      </div>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
