@@ -19,17 +19,19 @@
       </a>
 
       <nav class="nav-links">
-        <a href="index.html">Home</a>
-        <a class="active" href="technology.html">Technology</a>
-        <a href="solutions.html">Solutions</a>
-        <a href="industries.html">Industries</a>
-        <a href="about.html">About</a>
-        <a href="contact.html">Contact</a>
+        <a href="index.html" data-i18n="nav_home">Home</a>
+        <a class="active" href="technology.html" data-i18n="nav_technology">Technology</a>
+        <a href="solutions.html" data-i18n="nav_solutions">Solutions</a>
+        <a href="industries.html" data-i18n="nav_industries">Industries</a>
+        <a href="index.html#partners" data-i18n="nav_partners">Partners</a>
+        <a href="about.html" data-i18n="nav_about">About</a>
+        <a href="contact.html" data-i18n="nav_contact">Contact</a>
       </nav>
 
       <div class="nav-actions">
-        <a class="btn btn-secondary hide-mobile" href="contact.html">Get in Touch</a>
-        <a class="btn btn-primary" href="contact.html">Partner With Us</a>
+        <a class="btn btn-primary hide-mobile" href="contact.html" data-i18n="nav_cta">Partner With Us</a>
+        <button class="lang-toggle" type="button" aria-label="Toggle language" data-i18n="lang_btn">AR</button>
+        <button class="menu-toggle" type="button" aria-label="Open menu">☰</button>
       </div>
     </div>
   </header>
@@ -52,35 +54,34 @@
 
   <div class="container tech-hero-grid">
     <div class="tech-hero-copy">
-      <span class="eyebrow">Technology</span>
-      <h1>Engineering Intelligence for Real-World Edge Systems</h1>
-      <p>Nawah develops edge-AI systems designed for real-world deployment — where latency, power, reliability, and hardware constraints define performance
-      <p>Our technology stack spans from AI model design to hardware acceleration and system-level integration, ensuring that intelligence is not only accurate, but deployable.
-      </p>
+      <span class="eyebrow" data-i18n="nav_technology">Technology</span>
+      <h1 data-i18n="tech_hero_title">Engineering Intelligence for Real-World Edge Systems</h1>
+      <p data-i18n="tech_hero_p1">Nawah develops edge-AI systems designed for real-world deployment — where latency, power, reliability, and hardware constraints define performance.</p>
+      <p data-i18n="tech_hero_p2">Our technology stack spans from AI model design to hardware acceleration and system-level integration, ensuring that intelligence is not only accurate, but deployable.</p>
     </div>
 
     <div class="tech-hero-visual">
       <div class="tech-visual-board">
         <div class="board-grid"></div>
 
-        <div class="stack-card sc-1">AI Model Design</div>
+        <div class="stack-card sc-1" data-i18n="tech_stack_1">AI Model Design</div>
         <div class="stack-link"></div>
 
-        <div class="stack-card sc-2">Hardware Acceleration</div>
+        <div class="stack-card sc-2" data-i18n="tech_stack_2">Hardware Acceleration</div>
         <div class="stack-link"></div>
 
-        <div class="stack-card sc-3">System-Level Integration</div>
+        <div class="stack-card sc-3" data-i18n="tech_stack_3">System-Level Integration</div>
         <div class="stack-link"></div>
 
-        <div class="stack-card sc-4">Deployable Edge Intelligence</div>
+        <div class="stack-card sc-4" data-i18n="tech_stack_4">Deployable Edge Intelligence</div>
 
         <span class="stack-pulse sp-1"></span>
         <span class="stack-pulse sp-2"></span>
         <span class="stack-pulse sp-3"></span>
 
         <div class="glass-insight">
-          <strong>Technology Stack</strong>
-          <span>From model design to acceleration to deployable edge systems.</span>
+          <strong data-i18n="tech_stack_label">Technology Stack</strong>
+          <span data-i18n="tech_stack_desc">From model design to acceleration to deployable edge systems.</span>
         </div>
       </div>
     </div>
@@ -92,12 +93,12 @@
     <section class="tech-anchor-bar">
       <div class="container">
         <div class="tech-anchor-links">
-          <a href="#challenge">Challenge</a>
-          <a href="#models">Models</a>
-          <a href="#acceleration">Acceleration</a>
-          <a href="#integration">Integration</a>
-          <a href="#research">Research</a>
-          <a href="#contact-panel">Contact</a>
+          <a href="#challenge" data-i18n="tech_anchor_1">Challenge</a>
+          <a href="#models" data-i18n="tech_anchor_2">Models</a>
+          <a href="#acceleration" data-i18n="tech_anchor_3">Acceleration</a>
+          <a href="#integration" data-i18n="tech_anchor_4">Integration</a>
+          <a href="#research" data-i18n="tech_anchor_5">Research</a>
+          <a href="contact.html" data-i18n="tech_anchor_6">Contact</a>
         </div>
       </div>
     </section>
@@ -107,9 +108,9 @@
       <div class="container">
         <div class="section-header">
           <div>
-            <span class="eyebrow">CHALLENGE</span>
-            <h2 class="section-title">The Edge Engineering Challenge</h2>
-            <p class="section-lead">
+            <span class="eyebrow" data-i18n="tech_challenge_eyebrow">CHALLENGE</span>
+            <h2 class="section-title" data-i18n="tech_challenge_title">The Edge Engineering Challenge</h2>
+            <p class="section-lead" data-i18n="tech_challenge_lead">
               Deploying AI in real environments introduces constraints that do not exist in cloud infrastructure.Edge systems must operate within: </p>
           </div>
         </div>
@@ -117,35 +118,35 @@
         <div class="constraint-grid">
           <article class="constraint-card info-card">
             <div class="constraint-no">01</div>
-            <h3>Limited power budgets</h3>
+            <h3 data-i18n="tech_con_1">Limited power budgets</h3>
           </article>
 
           <article class="constraint-card info-card">
             <div class="constraint-no">02</div>
-            <h3>Restricted memory capacity
+            <h3 data-i18n="tech_con_2">Restricted memory capacity</h3>
           </article>
 
           <article class="constraint-card info-card">
             <div class="constraint-no">03</div>
-            <h3>Thermal boundaries</h3>
+            <h3 data-i18n="tech_con_3">Thermal boundaries</h3>
           </article>
 
           <article class="constraint-card info-card">
             <div class="constraint-no">04</div>
-            <h3>Connectivity limitations</h3>
+            <h3 data-i18n="tech_con_4">Connectivity limitations</h3>
           </article>
 
           <article class="constraint-card info-card">
             <div class="constraint-no">05</div>
-            <h3>Real-time requirements</h3>
+            <h3 data-i18n="tech_con_5">Real-time requirements</h3>
           </article>
         </div>
 
         <div class="statement-panel">
-          <p>
+          <p data-i18n="tech_challenge_panel_1">
             These constraints require tight coordination between algorithms, hardware architecture, and embedded system design.
           </p>
-          <strong>At Nawah, Edge AI is engineered — not simply deployed.</strong>
+          <strong data-i18n="tech_challenge_panel_2">At Nawah, Edge AI is engineered — not simply deployed.</strong>
         </div>
       </div>
     </section>
@@ -156,10 +157,11 @@
   <div class="container">
     <div class="section-header">
       <div>
-        <span class="eyebrow">MODELS</span>
-        <h2 class="section-title">Model Architectures for Edge Systems</h2>
-        <p class="section-lead">
+        <span class="eyebrow" data-i18n="tech_models_eyebrow">MODELS</span>
+        <h2 class="section-title" data-i18n="tech_models_title">Model Architectures for Edge Systems</h2>
+        <p class="section-lead" data-i18n="tech_models_lead">
           AI models are the computational foundation of intelligent systems. However, different architectures behave differently under edge constraints.
+        </p>
       </div>
     </div>
 
@@ -167,50 +169,51 @@
       <article class="model-hover-card ann-card">
         <div class="model-card-head">
           <div class="model-chip">ANNs</div>
-          <h3>Traditional Neural Networks (ANNs)</h3>
+          <h3 data-i18n="tech_ann_title">Traditional Neural Networks (ANNs)</h3>
         </div>
 
         <div class="model-card-body">
-          <p>
+          <p data-i18n="tech_ann_p1">
             Artificial Neural Networks — including CNNs and transformer-based models — rely on dense numerical computation and are widely used in vision, language, and signal processing.
-
-          <p>
+          </p>
+          <p data-i18n="tech_ann_p2">
             They provide strong accuracy, but can be resource-intensive depending on architecture size and deployment target.
+          </p>
         </div>
       </article>
 
       <article class="model-hover-card snn-card">
         <div class="model-card-head">
           <div class="model-chip">SNNs</div>
-          <h3>Event-Driven Architectures (SNNs)</h3>
+          <h3 data-i18n="tech_snn_title">Event-Driven Architectures (SNNs)</h3>
         </div>
 
         <div class="model-card-body">
 
-          <p>
+          <p data-i18n="tech_snn_p1">
             Spiking Neural Networks operate through time-based discrete events rather than continuous numerical propagation.
           </p>
 
-          <p>
+          <p data-i18n="tech_snn_p2">
             This approach aligns naturally with temporal data and event-driven sensing environments.
           </p>
 
           <div class="model-block">
-            <strong>Potential advantages include:</strong>
+            <strong data-i18n="tech_snn_adv_label">Potential advantages include:</strong>
             <ul>
-              <li>Sparse activation patterns</li>
-              <li>Time-domain processing</li>
-              <li>Energy-aware computation</li>
+              <li data-i18n="tech_snn_adv_1">Sparse activation patterns</li>
+              <li data-i18n="tech_snn_adv_2">Time-domain processing</li>
+              <li data-i18n="tech_snn_adv_3">Energy-aware computation</li>
             </ul>
           </div>
 
           <div class="model-block">
-            <strong>Architecture selection depends on:</strong>
+            <strong data-i18n="tech_snn_select_label">Architecture selection depends on:</strong>
             <ul>
-              <li>Data modality</li>
-              <li>Application requirements</li>
-              <li>Deployment constraints</li>
-              <li>Hardware alignment</li>
+              <li data-i18n="tech_snn_select_1">Data modality</li>
+              <li data-i18n="tech_snn_select_2">Application requirements</li>
+              <li data-i18n="tech_snn_select_3">Deployment constraints</li>
+              <li data-i18n="tech_snn_select_4">Hardware alignment</li>
             </ul>
           </div>
 
@@ -219,7 +222,7 @@
     </div>
 
     <div class="statement-panel">
-      <p>There is no universal model — only appropriate engineering decisions.</p>
+      <p data-i18n="tech_models_statement">There is no universal model — only appropriate engineering decisions.</p>
     </div>
   </div>
 </section>
@@ -228,10 +231,10 @@
       <div class="container">
         <div class="section-header">
           <div>
-            <span class="eyebrow">ACCELERATION</span>
-            <h2 class="section-title">Hardware-Aware Acceleration</h2>
-            <p class="section-lead">Efficient AI deployment requires specialized compute optimization.</p>
-            <p class="section-lead">
+            <span class="eyebrow" data-i18n="tech_accel_eyebrow">ACCELERATION</span>
+            <h2 class="section-title" data-i18n="tech_accel_title">Hardware-Aware Acceleration</h2>
+            <p class="section-lead" data-i18n="tech_accel_lead_1">Efficient AI deployment requires specialized compute optimization.</p>
+            <p class="section-lead" data-i18n="tech_accel_lead_2">
               Many AI workloads involve repetitive numerical operations. Running them on general-purpose processors can lead to excessive power consumption or latency bottlenecks.
             </p>
           </div>
@@ -239,28 +242,28 @@
 
         <div class="accel-layout">
           <article class="accel-panel">
-            <h3>Acceleration platforms may include:</h3>
+            <h3 data-i18n="tech_accel_platforms_t">Acceleration platforms may include:</h3>
             <ul class="tech-list">
-              <li>GPUs (Graphics Processing Units)</li>
-              <li>NPUs (Neural Processing Units)</li>
-              <li>FPGAs (Field-Programmable Gate Arrays)</li>
-              <li>ASICs (Application-Specific Integrated Circuits)</li>
+              <li data-i18n="tech_accel_p_1">GPUs (Graphics Processing Units)</li>
+              <li data-i18n="tech_accel_p_2">NPUs (Neural Processing Units)</li>
+              <li data-i18n="tech_accel_p_3">FPGAs (Field-Programmable Gate Arrays)</li>
+              <li data-i18n="tech_accel_p_4">ASICs (Application-Specific Integrated Circuits)</li>
             </ul>
           </article>
 
           <article class="accel-panel">
-            <h3>Optimization techniques include:</h3>
+            <h3 data-i18n="tech_accel_opt_t">Optimization techniques include:</h3>
             <ul class="tech-list">
-              <li>Quantization</li>
-              <li>Pruning</li>
-              <li>Computational graph optimization</li>
-              <li>Memory-access tuning</li>
+              <li data-i18n="tech_accel_o_1">Quantization</li>
+              <li data-i18n="tech_accel_o_2">Pruning</li>
+              <li data-i18n="tech_accel_o_3">Computational graph optimization</li>
+              <li data-i18n="tech_accel_o_4">Memory-access tuning</li>
             </ul>
           </article>
         </div>
 
         <div class="statement-panel">
-          <strong>The goal is not raw performance — but a balanced system optimized for accuracy, latency, and power efficiency.</strong>
+          <strong data-i18n="tech_accel_statement">The goal is not raw performance — but a balanced system optimized for accuracy, latency, and power efficiency.</strong>
         </div>
       </div>
     </section>
@@ -270,10 +273,10 @@
       <div class="container">
         <div class="section-header">
           <div>
-            <span class="eyebrow">INTEGRATION</span>
-            <h2 class="section-title">System-Level Integration</h2>
-            <p class="section-lead">AI systems must be physically realized through hardware engineering.</p>
-            <p class="section-lead">
+            <span class="eyebrow" data-i18n="tech_int_eyebrow">INTEGRATION</span>
+            <h2 class="section-title" data-i18n="tech_int_title">System-Level Integration</h2>
+            <p class="section-lead" data-i18n="tech_int_lead_1">AI systems must be physically realized through hardware engineering.</p>
+            <p class="section-lead" data-i18n="tech_int_lead_2">
               PCB and embedded system design transform computational capability into functional products.
             </p>
           </div>
@@ -285,32 +288,32 @@
           <article class="integration-step">
             <span class="step-dot"></span>
             <div class="step-box">
-              <h3>AI Systems</h3>
-              <p>Computational intelligence starts with model behavior and performance requirements.</p>
+              <h3 data-i18n="tech_int_1_t">AI Systems</h3>
+              <p data-i18n="tech_int_1_d">Computational intelligence starts with model behavior and performance requirements.</p>
             </div>
           </article>
 
           <article class="integration-step">
             <span class="step-dot"></span>
             <div class="step-box">
-              <h3>Hardware Engineering</h3>
-              <p>Architecture choices must align with power, timing, and physical implementation limits.</p>
+              <h3 data-i18n="tech_int_2_t">Hardware Engineering</h3>
+              <p data-i18n="tech_int_2_d">Architecture choices must align with power, timing, and physical implementation limits.</p>
             </div>
           </article>
 
           <article class="integration-step">
             <span class="step-dot"></span>
             <div class="step-box">
-              <h3>PCB & Embedded System Design</h3>
-              <p>System realization translates compute capability into stable and manufacturable hardware.</p>
+              <h3 data-i18n="tech_int_3_t">PCB & Embedded System Design</h3>
+              <p data-i18n="tech_int_3_d">System realization translates compute capability into stable and manufacturable hardware.</p>
             </div>
           </article>
 
           <article class="integration-step">
             <span class="step-dot"></span>
             <div class="step-box">
-              <h3>Functional Products</h3>
-              <p>Final deployment requires integrated performance, reliability, and real-world operation.</p>
+              <h3 data-i18n="tech_int_4_t">Functional Products</h3>
+              <p data-i18n="tech_int_4_d">Final deployment requires integrated performance, reliability, and real-world operation.</p>
             </div>
           </article>
 
@@ -319,28 +322,28 @@
 
         <div class="integration-grid">
           <article class="integration-panel">
-            <h3>Key engineering considerations include:</h3>
+            <h3 data-i18n="tech_int_eng_t">Key engineering considerations include:</h3>
             <ul class="tech-list">
-              <li>Power delivery and regulation</li>
-              <li>Signal integrity</li>
-              <li>Thermal management</li>
-              <li>Electromagnetic compatibility</li>
-              <li>Sensor and memory interfacing</li>
+              <li data-i18n="tech_int_eng_1">Power delivery and regulation</li>
+              <li data-i18n="tech_int_eng_2">Signal integrity</li>
+              <li data-i18n="tech_int_eng_3">Thermal management</li>
+              <li data-i18n="tech_int_eng_4">Electromagnetic compatibility</li>
+              <li data-i18n="tech_int_eng_5">Sensor and memory interfacing</li>
             </ul>
           </article>
 
           <article class="integration-panel">
-            <h3>Embedded engineering ensures:</h3>
+            <h3 data-i18n="tech_int_ens_t">Embedded engineering ensures:</h3>
             <ul class="tech-list">
-              <li>Resource-aware firmware</li>
-              <li>Real-time performance tuning</li>
-              <li>Stable system operation</li>
+              <li data-i18n="tech_int_ens_1">Resource-aware firmware</li>
+              <li data-i18n="tech_int_ens_2">Real-time performance tuning</li>
+              <li data-i18n="tech_int_ens_3">Stable system operation</li>
             </ul>
           </article>
         </div>
 
         <div class="statement-panel">
-          <strong>True edge intelligence requires full-stack integration.</strong>
+          <strong data-i18n="tech_int_statement">True edge intelligence requires full-stack integration.</strong>
         </div>
       </div>
     </section>
@@ -350,45 +353,45 @@
       <div class="container">
         <div class="section-header">
           <div>
-            <span class="eyebrow">RESEARCH</span>
-            <h2 class="section-title">Advancing Edge Architectures</h2>
-            <p class="section-lead">
+            <span class="eyebrow" data-i18n="tech_res_eyebrow">RESEARCH</span>
+            <h2 class="section-title" data-i18n="tech_res_title">Advancing Edge Architectures</h2>
+            <p class="section-lead" data-i18n="tech_res_lead_1">
               Nawah invests in research exploring next-generation computing approaches designed for constrained environments. </p>
-            <p class="section-lead">Research areas include:  </p>         
+            <p class="section-lead" data-i18n="tech_res_lead_2">Research areas include:  </p>         
           </div>
         </div>
 
         <div class="research-cards">
           <article class="research-card clean-hover-card">
             <div class="research-front">
-              <h3>Event-driven computation</h3>
+              <h3 data-i18n="tech_res_1">Event-driven computation</h3>
             </div>
 
           </article>
 
           <article class="research-card clean-hover-card">
             <div class="research-front">
-              <h3>Sparse processing models</h3>
+              <h3 data-i18n="tech_res_2">Sparse processing models</h3>
             </div>
 
           </article>
 
           <article class="research-card clean-hover-card">
             <div class="research-front">
-              <h3>Memory–compute proximity</h3>
+              <h3 data-i18n="tech_res_3">Memory–compute proximity</h3>
             </div>
 
           </article>
 
           <article class="research-card clean-hover-card">
             <div class="research-front">
-              <h3>Energy-efficient hardware-algorithm co-design</h3>
+              <h3 data-i18n="tech_res_4">Energy-efficient hardware-algorithm co-design</h3>
             </div>
           </article>
         </div>
 
         <div class="statement-panel">
-          <p>
+          <p data-i18n="tech_res_statement">
             These efforts support our long-term direction toward ultra-efficient, autonomous computing systems designed for real-world deployment.          </p>
         </div>
       </div>
@@ -419,7 +422,7 @@
   <footer class="footer">
     <div class="container footer-grid">
       <div>
-      <a class="logo" href="index.html"><img src="images\Logo.png" alt="Nawah Logo"></a>
+      <a class="logo" href="index.html"><img src="images/Logo.png" alt="Nawah Logo"></a>
 
         <p style="margin-top:14px;" data-i18n="footer_text">Ultra-efficient intelligence for real-world autonomous and edge applications.</p>
       </div>
@@ -438,5 +441,6 @@
     </div>
   </footer>
 
+  <script src="script.js"></script>
 </body>
 </html>

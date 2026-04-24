@@ -9,6 +9,14 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Tajawal:wght@400;500;700;800&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="styles.css" />
+
+  <!-- Preload partner logos so they appear immediately in both AR & EN -->
+  <link rel="preload" as="image" href="images/partner1.png" fetchpriority="high">
+  <link rel="preload" as="image" href="images/partner2.png" fetchpriority="high">
+  <link rel="preload" as="image" href="images/partner3.png" fetchpriority="high">
+  <link rel="preload" as="image" href="images/partner4.png" fetchpriority="high">
+  <link rel="preload" as="image" href="images/partner5.png" fetchpriority="high">
+  <link rel="preload" as="image" href="images/partner6.png" fetchpriority="high">
 </head>
 <body>
   <header class="topbar">
@@ -21,6 +29,7 @@
         <a href="technology.html" data-i18n="nav_technology">Technology</a>
         <a href="solutions.html" data-i18n="nav_solutions">Solutions</a>
         <a href="industries.html" data-i18n="nav_industries">Industries</a>
+        <a href="#partners" data-i18n="nav_partners">Partners</a>
         <a href="about.html" data-i18n="nav_about">About</a>
         <a href="contact.html" data-i18n="nav_contact">Contact</a>
       </nav>
@@ -28,6 +37,7 @@
       <div class="nav-actions">
         <a class="btn btn-secondary hide-mobile" href="technology.html" data-i18n="hero_btn1">Explore Technology</a>
         <a class="btn btn-primary" href="contact.html" data-i18n="nav_cta">Partner With Us</a>
+        <button class="lang-toggle" type="button" aria-label="Toggle language" data-i18n="lang_btn">AR</button>
         <button class="menu-toggle" type="button" aria-label="Open menu">☰</button>
       </div>
     </div>
@@ -54,8 +64,8 @@
             <canvas id="neuroCanvas"></canvas>
 
             <div class="glass-panel">
-              <strong>At the Core</strong>
-              <span>Engineering intelligence across models, hardware, and system integration.</span>
+              <strong data-i18n="hero_panel_t">At the Core</strong>
+              <span data-i18n="hero_panel_d">Engineering intelligence across models, hardware, and system integration.</span>
             </div>
         </div>
         </div>
@@ -113,7 +123,7 @@
         </div>
         <div class="section-link-row reveal">
           <a class="section-link" href="technology.html">
-            Explore Technology
+            <span data-i18n="explore_technology">Explore Technology</span>
             <span>↗</span>
           </a>
         </div>
@@ -201,7 +211,7 @@
         </div>
         <div class="section-link-row reveal">
         <a class="section-link" href="industries.html">
-          Explore Industries
+          <span data-i18n="explore_industries">Explore Industries</span>
           <span>↗</span>
         </a>
       </div>
@@ -223,14 +233,14 @@
         </div>
         <div class="section-link-row reveal">
         <a class="section-link" href="solutions.html">
-          Explore Solutions
+          <span data-i18n="explore_solutions">Explore Solutions</span>
           <span>↗</span>
         </a>
       </div>
       </div>
     </section>
 
-<section class="section">
+<section class="section" id="partners">
   <div class="container">
     
     <span class="eyebrow reveal" data-i18n="partners_eyebrow">Partners</span>
@@ -239,61 +249,70 @@
       Partners & Collaborators
     </h2>
     
-    <p class="section-lead reveal" data-i18n="solutions_text">
+    <p class="section-lead reveal" data-i18n="partners_text">
       We work with research institutions, technology providers, and industry partners to advance next-generation edge intelligence.
     </p>
 
     <div class="partners-marquee">
 
       <div class="partners-track">
-        
+
         <!-- مجموعة أولى -->
         <div class="partner-item">
-          <img src="images/partner-1.png" alt="">
+          <img src="images/partner1.png" alt="Partner 1" width="170" height="64" loading="eager" fetchpriority="high" decoding="async">
         </div>
         <div class="partner-item">
-          <img src="images/partner-2.png" alt="">
+          <img src="images/partner2.png" alt="Partner 2" width="170" height="64" loading="eager" fetchpriority="high" decoding="async">
         </div>
         <div class="partner-item">
-          <img src="images/partner-3.png" alt="">
+          <img src="images/partner3.png" alt="Partner 3" width="170" height="64" loading="eager" fetchpriority="high" decoding="async">
         </div>
         <div class="partner-item">
-          <img src="images/partner-4.png" alt="">
+          <img src="images/partner4.png" alt="Partner 4" width="170" height="64" loading="eager" fetchpriority="high" decoding="async">
         </div>
         <div class="partner-item">
-          <img src="images/partner-5.png" alt="">
+          <img src="images/partner5.png" alt="Partner 5" width="170" height="64" loading="eager" fetchpriority="high" decoding="async">
         </div>
         <div class="partner-item">
-          <img src="images/partner-6.png" alt="">
+          <img src="images/partner6.png" alt="Partner 6" width="170" height="64" loading="eager" fetchpriority="high" decoding="async">
+        </div>
+        <div class="partner-item">
+          <img src="images/partner7.png" alt="Partner 7" width="170" height="64" loading="eager" decoding="async">
+        </div>
+        <div class="partner-item">
+          <img src="images/partner8.png" alt="Partner 8" width="170" height="64" loading="eager" decoding="async">
+        </div>
+        <div class="partner-item">
+          <img src="images/partner9.png" alt="Partner 9" width="170" height="64" loading="eager" decoding="async">
         </div>
 
-        <!-- نفسهم مرة ثانية (مهم للانسيابية) -->
-        <div class="partner-item">
-          <img src="images/partner1.png" alt="">
+        <!-- نفس المجموعة مكرّرة عشان الانسيابية في الـ marquee -->
+        <div class="partner-item" aria-hidden="true">
+          <img src="images/partner1.png" alt="" width="170" height="64" loading="lazy" decoding="async">
         </div>
-        <div class="partner-item">
-          <img src="images/partner2.png" alt="">
+        <div class="partner-item" aria-hidden="true">
+          <img src="images/partner2.png" alt="" width="170" height="64" loading="lazy" decoding="async">
         </div>
-        <div class="partner-item">
-          <img src="images/partner3.png" alt="">
+        <div class="partner-item" aria-hidden="true">
+          <img src="images/partner3.png" alt="" width="170" height="64" loading="lazy" decoding="async">
         </div>
-        <div class="partner-item">
-          <img src="images/partner4.png" alt="">
+        <div class="partner-item" aria-hidden="true">
+          <img src="images/partner4.png" alt="" width="170" height="64" loading="lazy" decoding="async">
         </div>
-        <div class="partner-item">
-          <img src="images/partner5.png" alt="">
+        <div class="partner-item" aria-hidden="true">
+          <img src="images/partner5.png" alt="" width="170" height="64" loading="lazy" decoding="async">
         </div>
-        <div class="partner-item">
-          <img src="images/partner6.png" alt="">
+        <div class="partner-item" aria-hidden="true">
+          <img src="images/partner6.png" alt="" width="170" height="64" loading="lazy" decoding="async">
         </div>
-                <div class="partner-item">
-          <img src="images/partner7.png" alt="">
+        <div class="partner-item" aria-hidden="true">
+          <img src="images/partner7.png" alt="" width="170" height="64" loading="lazy" decoding="async">
         </div>
-        <div class="partner-item">
-          <img src="images/partner8.png" alt="">
+        <div class="partner-item" aria-hidden="true">
+          <img src="images/partner8.png" alt="" width="170" height="64" loading="lazy" decoding="async">
         </div>
-        <div class="partner-item">
-          <img src="images/partner9.png" alt="">
+        <div class="partner-item" aria-hidden="true">
+          <img src="images/partner9.png" alt="" width="170" height="64" loading="lazy" decoding="async">
         </div>
 
       </div>
@@ -322,7 +341,7 @@
   <footer class="footer">
     <div class="container footer-grid">
       <div>
-      <a class="logo" href="index.html"><img src="images\Logo.png" alt="Nawah Logo"></a>
+      <a class="logo" href="index.html"><img src="images/Logo.png" alt="Nawah Logo"></a>
 
         <p style="margin-top:14px;" data-i18n="footer_text">Ultra-efficient intelligence for real-world autonomous and edge applications.</p>
       </div>
@@ -331,6 +350,7 @@
         <a href="technology.html" data-i18n="nav_technology">Technology</a>
         <a href="solutions.html" data-i18n="nav_solutions">Solutions</a>
         <a href="industries.html" data-i18n="nav_industries">Industries</a>
+        <a href="index.html#partners" data-i18n="nav_partners">Partners</a>
       </div>
 
       <div class="footer-links">
