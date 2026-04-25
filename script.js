@@ -406,7 +406,7 @@ const translations = {
 
     // Home — Industries
     industries_eyebrow: "القطاعات",
-    industries_title: "أين تُوظَّف تقنياتنا",
+    industries_title: "أين تُطبق تقنياتنا",
     ind_1_t: "الروبوتات والأتمتة",
     ind_1_d: "إدراك وتحكم لحظي، وتكامل عتادي، للأنظمة ذاتية التشغيل والبيئات الصناعية.",
     ind_2_t: "إنترنت الأشياء الصناعي",
