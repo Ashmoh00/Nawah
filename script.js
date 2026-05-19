@@ -138,7 +138,7 @@ const translations = {
     // About page
     about_hero_eyebrow: "About Nawah",
     about_hero_title: "Engineering the future of edge intelligence",
-    about_hero_text: "Nawah is a Saudi company focused on ultra-efficient edge-AI systems for real-world autonomous and embedded applications.",
+    about_hero_text: "Nawah is a Saudi company focused on ultra-efficient edge-AI systems for real-world autonomous and embedded applications — contributing to Saudi Arabia's Vision 2030 goals for a knowledge-based economy and technological sovereignty.",
     about_defines_label: "What defines Nawah",
     about_define_1: "Real-world deployability",
     about_define_2: "Low-power intelligence",
@@ -147,14 +147,14 @@ const translations = {
     about_who_eyebrow: "Who We Are",
     about_who_title: "A Saudi edge-AI and neuromorphic systems company",
     about_who_p1: "Nawah is a Saudi neuromorphic and edge-AI systems company focused on delivering ultra-efficient intelligence for real-world autonomous and embedded applications.",
-    about_who_p2: "While our long-term mission is to develop Saudi-designed neuromorphic integrated circuits, today we enable customers to deploy production-ready edge-AI systems through different platforms, custom hardware, and system-level engineering.",
+    about_who_p2: "While our long-term mission is to develop Saudi-designed neuromorphic integrated circuits, we engineer production-grade edge-AI systems with selected partners — across custom hardware platforms and system-level integration.",
     about_card_a_t: "Deployable AI",
     about_card_a_d: "Edge-ready systems for real-world use",
     about_card_b_t: "Neuromorphic Vision",
     about_card_b_d: "Brain-inspired efficiency at the system level",
     about_vision_eyebrow: "Vision",
     about_vision_title: "Building Saudi leadership in advanced edge systems",
-    about_vision_text: "To position Saudi Arabia as a global leader in brain-inspired computing and advanced edge intelligence.",
+    about_vision_text: "To contribute to Saudi leadership in brain-inspired computing and advanced edge intelligence — aligned with Vision 2030 and national technology programs including SDAIA and RDIA.",
     about_mission_eyebrow: "Mission",
     about_mission_title: "Designing ultra-efficient computing for the next generation",
     about_mission_text: "To design ultra-efficient computing systems that deliver real-time, low-power intelligence for next-generation edge applications.",
@@ -173,11 +173,13 @@ const translations = {
 
     // Industries page
     ind_hero_title: "Where Our Technology Applies",
+
+    // ✅ بعد
     ind_3_full_t: "Smart Cities & Infrastructure",
-    ind_3_full_d: "Traffic monitoring, environmental sensing, and intelligent infrastructure management.",
-    ind_1_full_d: "Real-time perception and control for industrial robots, autonomous systems, and precision motion applications.",
-    ind_2_full_d: "Predictive maintenance, sensor intelligence, and optimized manufacturing systems.",
-    ind_4_full_d: "Low-latency, privacy-preserving intelligence for smart home systems, wearables, and embedded consumer devices.",
+    ind_3_full_d: "Edge AI enables smarter urban infrastructure without constant cloud dependency. A typical deployment: vision-based traffic flow sensors that adapt signal timing in real time, reducing average intersection wait times by up to 30% — all processed on-device with no data leaving the site.",
+    ind_1_full_d: "Industrial robots require millisecond-level decisions that cloud AI cannot deliver. Nawah engineers edge-vision systems that detect part defects, guide robotic arms, and trigger safety stops — all running on low-power embedded hardware directly on the factory floor.",
+    ind_2_full_d: "Unplanned equipment downtime costs Saudi industrial facilities millions annually. By deploying edge AI models trained on vibration and thermal sensor data, Nawah systems flag anomalies hours before failure occurs — cutting maintenance costs and extending asset lifespan without replacing existing machinery.",
+    ind_4_full_d: "Consumer devices demand intelligence without battery drain or privacy risk. Nawah designs on-device AI for wearables and smart home systems that process voice, motion, and environmental signals locally — delivering fast, private responses with no data sent to the cloud.",
 
     // Solutions page
     sol_hero_title: "Engineering Services",
@@ -318,6 +320,9 @@ const translations = {
     contact_subject: "Subject",
     contact_message: "Tell us about your project or inquiry*",
     contact_submit: "Submit Inquiry",
+        // Technology — Engineering Philosophy Quote
+    tech_quote_text: "There is no universal model — only appropriate engineering decisions.",
+    tech_quote_by: "Nawah engineering philosophy",
   },
 
   ar: {
@@ -449,7 +454,7 @@ const translations = {
     // About page
     about_hero_eyebrow: "عن نواة",
     about_hero_title: "هندسة مستقبل الذكاء الطرفي",
-    about_hero_text: "نواة شركة سعودية متخصصة في أنظمة الذكاء الاصطناعي الطرفية فائقة الكفاءة، للتطبيقات ذاتية التشغيل والأنظمة المدمجة في البيئات الواقعية.",
+    about_hero_text: "نواة شركة سعودية متخصصة في أنظمة الذكاء الطرفي عالية الكفاءة للتطبيقات ذاتية التشغيل والمدمجة — مساهمةً في تحقيق أهداف رؤية 2030 نحو اقتصاد قائم على المعرفة وسيادة تقنية وطنية.",
     about_defines_label: "ما الذي يُميّز نواة",
     about_define_1: "قابلية النشر في البيئات الواقعية",
     about_define_2: "ذكاء منخفض الاستهلاك",
@@ -458,14 +463,14 @@ const translations = {
     about_who_eyebrow: "من نحن",
     about_who_title: "شركة سعودية في الذكاء الطرفي وأنظمة الحوسبة المستلهَمة من الدماغ",
     about_who_p1: "نواة شركة سعودية متخصصة في أنظمة الذكاء الاصطناعي الطرفية والأنظمة المستلهَمة من الدماغ، مع التركيز على توفير ذكاء فائق الكفاءة للتطبيقات ذاتية التشغيل والمدمجة في البيئات الواقعية.",
-    about_who_p2: "رؤيتنا بعيدة المدى هي تطوير دوائر متكاملة سعودية التصميم مستلهَمة من الدماغ. وفي المرحلة الحالية، نُمكّن عملاءنا من نشر أنظمة ذكاء طرفية جاهزة للإنتاج، عبر منصات متعددة، وعتاد مخصَّص، وهندسة متكاملة على مستوى النظام.",
+    about_who_p2: "رؤيتنا بعيدة المدى هي تطوير دوائر متكاملة سعودية التصميم مستلهَمة من الدماغ. وفي المرحلة الحالية، نُهندس أنظمة ذكاء طرفي عالية الجودة مع شركاء مختارين، عبر منصات مخصَّصة وهندسة متكاملة على مستوى النظام.",
     about_card_a_t: "ذكاء جاهز للنشر",
     about_card_a_d: "أنظمة طرفية جاهزة للاستخدام الفعلي",
     about_card_b_t: "رؤية مستلهَمة من الدماغ",
     about_card_b_d: "كفاءة على مستوى النظام مستلهَمة من الدماغ",
     about_vision_eyebrow: "الرؤية",
     about_vision_title: "بناء ريادة سعودية في الأنظمة الطرفية المتقدمة",
-    about_vision_text: "أن تتصدّر المملكة العربية السعودية عالمياً في الحوسبة المستلهَمة من الدماغ والذكاء الطرفي المتقدم.",
+    about_vision_text: "المساهمة في تعزيز ريادة المملكة العربية السعودية في مجال الحوسبة المستلهَمة من الدماغ والذكاء الطرفي المتقدم، بما يتوافق مع رؤية 2030 والبرامج التقنية الوطنية كسداية والهيئة السعودية للبيانات والذكاء الاصطناعي.",
     about_mission_eyebrow: "الرسالة",
     about_mission_title: "تصميم حوسبة فائقة الكفاءة للجيل القادم",
     about_mission_text: "تصميم أنظمة حوسبة فائقة الكفاءة، تُقدّم ذكاءً لحظياً منخفض الاستهلاك، لتطبيقات الجيل القادم من الأنظمة الطرفية.",
@@ -484,11 +489,13 @@ const translations = {
 
     // Industries page
     ind_hero_title: "أين تُطبق تقنياتنا",
+    // ✅ بعد
     ind_3_full_t: "المدن الذكية والبنية التحتية",
-    ind_3_full_d: "مراقبة حركة المرور، واستشعار البيئة، وإدارة ذكية للبنية التحتية.",
-    ind_1_full_d: "إدراك وتحكم لحظي، للروبوتات الصناعية، والأنظمة ذاتية التشغيل، وتطبيقات الحركة الدقيقة.",
-    ind_2_full_d: "صيانة تنبؤية، وذكاء مستشعرات، وأنظمة تصنيع مُحسَّنة.",
-    ind_4_full_d: "ذكاء منخفض زمن الاستجابة يحافظ على الخصوصية، لأنظمة المنازل الذكية، والأجهزة القابلة للارتداء، والأجهزة الاستهلاكية المدمجة.",
+    ind_3_full_d: "يُتيح الذكاء الطرفي بناء بنية تحتية حضرية أذكى دون الاعتماد المستمر على السحابة. نموذج تطبيقي: كاميرات طرفية تحلّل تدفق المرور في الوقت الفعلي وتضبط توقيت الإشارات تلقائياً — ما يقلّص أوقات الانتظار عند التقاطعات بنسبة تصل إلى 30%، مع معالجة البيانات محلياً دون مغادرتها الموقع.",
+    ind_1_full_d: "تحتاج الروبوتات الصناعية إلى قرارات بزمن استجابة يُقاس بالمللي ثانية، وهو ما لا تستطيع الحوسبة السحابية توفيره. تُهندس نواة أنظمة رؤية طرفية تكتشف عيوب القطع، وتوجّه الأذرع الروبوتية، وتُطلق أوامر الإيقاف الأمني — كل ذلك على معالجات مدمجة منخفضة الاستهلاك مباشرةً على أرض المصنع.",
+    ind_2_full_d: "تكلّف التوقفات غير المخطط لها المنشآت الصناعية السعودية ملايين سنوياً. بنشر نماذج ذكاء اصطناعي طرفي مدرّبة على بيانات الاهتزاز والحرارة، ترصد أنظمة نواة الشذوذات قبل ساعات من الأعطال — فتخفّض تكاليف الصيانة وتمدّد عمر الأصول دون الحاجة إلى استبدال المعدات القائمة.",
+    ind_4_full_d: "تتطلب الأجهزة الاستهلاكية ذكاءً لا يستنزف البطارية ولا يُعرّض الخصوصية للخطر. تصمم نواة ذكاءً محلياً للأجهزة القابلة للارتداء وأنظمة المنازل الذكية، يعالج الصوت والحركة والمؤشرات البيئية على الجهاز مباشرةً — لاستجابة سريعة وخاصة دون إرسال أي بيانات للسحابة.",
+
 
     // Solutions page
     sol_hero_title: "الخدمات الهندسية",
@@ -629,6 +636,9 @@ const translations = {
     contact_subject: "الموضوع",
     contact_message: "حدّثنا عن مشروعك أو استفسارك*",
     contact_submit: "إرسال الاستفسار",
+        // Technology — Engineering Philosophy Quote
+    tech_quote_text: "لا يوجد نموذج عام واحد — بل قرارات هندسية مناسبة لكل سياق.",
+    tech_quote_by: "فلسفة نواة الهندسية"
   }
 };
 
