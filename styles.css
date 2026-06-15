@@ -3817,3 +3817,10 @@ body[dir="rtl"] .nav-links a {
     font-size: clamp(1.25rem, 6vw, 1.75rem) !important;
   }
 }
+
+/* Hide navbar "Partner With Us" CTA on English at 1143px and below */
+@media (max-width: 1143px) {
+  html[lang="en"] .nav-cta-btn {
+    display: none !important;
+  }
+}
