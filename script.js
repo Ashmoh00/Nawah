@@ -757,8 +757,8 @@ if (form) {
     } catch (err) {
       if (formMessage) {
         formMessage.textContent = lang === "ar"
-          ? "حدث خطأ أثناء الإرسال. حاول مرة أخرى أو راسلنا على info@nawah.sa"
-          : "Something went wrong. Please try again or email us at info@nawah.sa";
+          ? "حدث خطأ أثناء الإرسال. حاول مرة أخرى أو راسلنا على info@nawah.com.sa"
+          : "Something went wrong. Please try again or email us at info@nawah.com.sa";
         formMessage.style.color = "#ff9b9b";
       }
     } finally {
